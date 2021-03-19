@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, View, Image, Text } from 'react-native';
 
 const SunsetItem = (props) => {
-  console.log(props);
   return (
     <View style={styles.item}>
       <Text style={styles.textoCartao}>Cidade: {props.city}</Text>

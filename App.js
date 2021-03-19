@@ -56,7 +56,6 @@ export default function App() {
           feels_like: data.current.feels_like,
           icon: data.current.weather[0].icon,
         };
-        console.log(status);
         setCityData([status]);
         Keyboard.dismiss();
       });
